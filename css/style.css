@@ -111,7 +111,7 @@ section .heading h2 {
 }
 
 .timeline {
-    padding: 30px 10ps;
+    padding: 30px 10px;
     position: relative;
 }
 
@@ -273,15 +273,37 @@ section .heading h2 {
 }
 
 /*RECOMMANDATIONS*/
+
 #recommendations .heading h2 {
     color: #d82c2e;
 }
 
-#myCarousel .carousel-item{
+#myCarousel .carousel-item {
     padding: 30px 30px 90px;
 }
 
-#myCarousel .carousel-item h3{
+#myCarousel .carousel-item h3 {
     color: #d82c2e;
     font-style: italic;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #333;
+    padding: 20px 0 40px;
+}
+
+footer span {
+    color: #d82c2e;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+footer span:hover {
+    font-size: 30px;
+}
+
+footer h5 {
+    color: white;
+    font-weight: normal;
 }
